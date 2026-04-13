@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>支持 UP GOGO</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .logo {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        h1 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        .qr-container {
+            background: #f8f9fa;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+        .qr-placeholder {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+            background: #e9ecef;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #6c757d;
+            font-size: 14px;
+            border: 2px dashed #adb5bd;
+        }
+        .qr-image {
+            max-width: 200px;
+            max-height: 200px;
+            border-radius: 12px;
+        }
+        .notice {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        .notice-title {
+            color: #856404;
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        .notice-text {
+            color: #856404;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+        .footer {
+            margin-top: 30px;
+            color: #999;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🎓</div>
+        <h1>UP GOGO</h1>
+        <p class="subtitle">让每个孩子都能快乐学英语<br>您的支持是我们前进的动力</p>
+        
+        <div class="qr-container">
+            <!-- 请替换下方图片路径为你的微信赞赏码 -->
+            <img src="wechat-reward-qr.png" alt="微信赞赏码" class="qr-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="qr-placeholder" style="display: none;">
+                请上传微信赞赏码图片<br>（命名为 wechat-reward-qr.png）
+            </div>
+        </div>
+        
+        <div class="notice">
+            <div class="notice-title">⚠️ 安全提示</div>
+            <div class="notice-text">
+                本软件完全免费！<br>
+                如有人向您收费，请勿购买并举报！<br>
+                打赏纯属自愿，不影响任何功能使用。
+            </div>
+        </div>
+        
+        <div class="footer">
+            感谢您对 UP GOGO 的支持 ❤️
+        </div>
+    </div>
+</body>
+</html>
