@@ -1,0 +1,31 @@
+{
+    "appName": "UP GOGO",
+    "latestVersion": "2.0.0",
+    "downloadUrl": "https://pan.quark.cn/s/e93d4e20702a?pwd=cdZM",
+    "releaseNotes": "初始免费版本",
+    "officialChannels": [
+        {
+            "name": "夸克网盘 - Windows版",
+            "url": "https://pan.quark.cn/s/e93d4e20702a?pwd=cdZM"
+        },
+        {
+            "name": "夸克网盘 - 安卓版",
+            "url": "https://pan.quark.cn/s/e93d4e20702a?pwd=cdZM"
+        }
+    ],
+    "supportLinks": [
+        {
+            "title": "爱发电",
+            "url": "https://www.ifdian.net/a/UPGOGO?utm_source=copylink&utm_medium=link",
+            "icon": "💡",
+            "color": "#9333ea"
+        },
+        {
+            "title": "微信赞赏",
+            "url": "https://lanxing1999djy.github.io/support/wechat.html",
+            "icon": "💚",
+            "color": "#22c55e"
+        }
+    ],
+    "securityNotice": "本软件完全免费！如有人向你收费，请勿购买并举报！官方仅在夸克网盘发布。"
+}
